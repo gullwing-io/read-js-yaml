@@ -28,7 +28,7 @@ There is one default function you can use from `read-js-yaml`.
 * `path` - **Required** can be the path to a local `YAML` or remote `YAML` file
 * `asYaml` - _optional_ boolean value defaults to false, if set to true returns `YAML` as a string else the requested `YAML` is returned as `JSON`
 
-**NOTE:** If something goes wrong like the file can't be found or returns a non 2xx the function will throw and error.
+**NOTE:** If something goes wrong like the file can't be found or returns a non 2xx the function will throw an error.
 
 
 
