@@ -1,6 +1,6 @@
 {
   "name": "read-js-yaml",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A wrapper around `js-yaml` to read local or remote YAML and optionally return JSON",
   "main": "./index.js",
   "type": "module",
