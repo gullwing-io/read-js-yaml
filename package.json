@@ -2,7 +2,7 @@
   "name": "read-js-yaml",
   "version": "1.0.1",
   "description": "A wrapper around `js-yaml` to read local or remote YAML and optionally return JSON",
-  "main": "./src/index.js",
+  "main": "./index.js",
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
