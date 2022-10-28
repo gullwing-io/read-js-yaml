@@ -4,7 +4,7 @@ import readJsYaml, {
   fetchRemoteYMAL,
   returnResponseOn2xx,
   returnResponseAsObject,
-} from "../read-js-yaml";
+} from "../read-js-yaml.js";
 
 describe("Loading YAML", () => {
   describe("readJsYaml", () => {
