@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading YAML fetchLocaleYAML should return JSON from local YMAL 1`] = `
+"label: Bookworms
+description: These are sample bookmarks to teach you how Bookworms works
+folders:
+  - 
+    label: folder 1
+    description: This is to describe the folder structure
+    folders:
+      - 
+        label: sub folder 1
+        description: This is to describe the sub folder structure
+        bookmarks:
+          - 
+            label: sample url 1
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+  - 
+    label: folder 2
+    folders:
+      - 
+        label: sub folder 2
+        bookmarks:
+          - 
+            label: sample url 2
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+          - 
+            label: sample url 3
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+      - 
+        label: sub folder 3
+        bookmarks:
+          - 
+            label: sample url 4
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+          - 
+            label: sample url 5
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com"
+`;
+
+exports[`Loading YAML fetchRemoteYMAL should return JSON from http request 1`] = `
+{
+  "body": "label: Bookworms
+description: These are sample bookmarks to teach you how Bookworms works
+folders:
+  - 
+    label: folder 1
+    description: This is to describe the folder structure
+    folders:
+      - 
+        label: sub folder 1
+        description: This is to describe the sub folder structure
+        bookmarks:
+          - 
+            label: sample url 1
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+  - 
+    label: folder 2
+    folders:
+      - 
+        label: sub folder 2
+        bookmarks:
+          - 
+            label: sample url 2
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+          - 
+            label: sample url 3
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+      - 
+        label: sub folder 3
+        bookmarks:
+          - 
+            label: sample url 4
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+          - 
+            label: sample url 5
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com",
+  "path": "https://raw.githubusercontent.com/thearegee/bookworms/main/demo/config/bookmarks.yaml",
+}
+`;
+
+exports[`Loading YAML readJsYaml should return locale bookmarks as JSON 1`] = `
+{
+  "body": {
+    "description": "These are sample bookmarks to teach you how Bookworms works",
+    "folders": [
+      {
+        "description": "This is to describe the folder structure",
+        "folders": [
+          {
+            "bookmarks": [
+              {
+                "description": "this is used to describe the bookmark",
+                "href": "https://www.mywebsite.com",
+                "label": "sample url 1",
+              },
+            ],
+            "description": "This is to describe the sub folder structure",
+            "label": "sub folder 1",
+          },
+        ],
+        "label": "folder 1",
+      },
+      {
+        "folders": [
+          {
+            "bookmarks": [
+              {
+                "description": "this is used to describe the bookmark",
+                "href": "https://www.mywebsite.com",
+                "label": "sample url 2",
+              },
+              {
+                "description": "this is used to describe the bookmark",
+                "href": "https://www.mywebsite.com",
+                "label": "sample url 3",
+              },
+            ],
+            "label": "sub folder 2",
+          },
+          {
+            "bookmarks": [
+              {
+                "description": "this is used to describe the bookmark",
+                "href": "https://www.mywebsite.com",
+                "label": "sample url 4",
+              },
+              {
+                "description": "this is used to describe the bookmark",
+                "href": "https://www.mywebsite.com",
+                "label": "sample url 5",
+              },
+            ],
+            "label": "sub folder 3",
+          },
+        ],
+        "label": "folder 2",
+      },
+    ],
+    "label": "Bookworms",
+  },
+  "type": "local",
+}
+`;
+
+exports[`Loading YAML readJsYaml should return locale bookmarks as YAML 1`] = `
+{
+  "body": "label: Bookworms
+description: These are sample bookmarks to teach you how Bookworms works
+folders:
+  - 
+    label: folder 1
+    description: This is to describe the folder structure
+    folders:
+      - 
+        label: sub folder 1
+        description: This is to describe the sub folder structure
+        bookmarks:
+          - 
+            label: sample url 1
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+  - 
+    label: folder 2
+    folders:
+      - 
+        label: sub folder 2
+        bookmarks:
+          - 
+            label: sample url 2
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+          - 
+            label: sample url 3
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+      - 
+        label: sub folder 3
+        bookmarks:
+          - 
+            label: sample url 4
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+          - 
+            label: sample url 5
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com",
+  "type": "local",
+}
+`;
+
+exports[`Loading YAML readJsYaml should return remote bookmarks as JSON 1`] = `
+{
+  "body": {
+    "description": "These are sample bookmarks to teach you how Bookworms works",
+    "folders": [
+      {
+        "description": "This is to describe the folder structure",
+        "folders": [
+          {
+            "bookmarks": [
+              {
+                "description": "this is used to describe the bookmark",
+                "href": "https://www.mywebsite.com",
+                "label": "sample url 1",
+              },
+            ],
+            "description": "This is to describe the sub folder structure",
+            "label": "sub folder 1",
+          },
+        ],
+        "label": "folder 1",
+      },
+      {
+        "folders": [
+          {
+            "bookmarks": [
+              {
+                "description": "this is used to describe the bookmark",
+                "href": "https://www.mywebsite.com",
+                "label": "sample url 2",
+              },
+              {
+                "description": "this is used to describe the bookmark",
+                "href": "https://www.mywebsite.com",
+                "label": "sample url 3",
+              },
+            ],
+            "label": "sub folder 2",
+          },
+          {
+            "bookmarks": [
+              {
+                "description": "this is used to describe the bookmark",
+                "href": "https://www.mywebsite.com",
+                "label": "sample url 4",
+              },
+              {
+                "description": "this is used to describe the bookmark",
+                "href": "https://www.mywebsite.com",
+                "label": "sample url 5",
+              },
+            ],
+            "label": "sub folder 3",
+          },
+        ],
+        "label": "folder 2",
+      },
+    ],
+    "label": "Bookworms",
+  },
+  "type": "remote",
+}
+`;
+
+exports[`Loading YAML readJsYaml should return remote bookmarks as YAML 1`] = `
+{
+  "body": "label: Bookworms
+description: These are sample bookmarks to teach you how Bookworms works
+folders:
+  - 
+    label: folder 1
+    description: This is to describe the folder structure
+    folders:
+      - 
+        label: sub folder 1
+        description: This is to describe the sub folder structure
+        bookmarks:
+          - 
+            label: sample url 1
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+  - 
+    label: folder 2
+    folders:
+      - 
+        label: sub folder 2
+        bookmarks:
+          - 
+            label: sample url 2
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+          - 
+            label: sample url 3
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+      - 
+        label: sub folder 3
+        bookmarks:
+          - 
+            label: sample url 4
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com
+          - 
+            label: sample url 5
+            description: this is used to describe the bookmark
+            href: https://www.mywebsite.com",
+  "type": "remote",
+}
+`;

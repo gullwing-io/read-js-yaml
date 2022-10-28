@@ -1,0 +1,36 @@
+{
+  "name": "read-js-yaml",
+  "version": "1.0.0",
+  "description": "A wrapper around `js-yaml` to read local or remote YAML and optionally return JSON",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:watch": "node --experimental-vm-modules node_modules/.bin/jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gullwing-io/read-js-yaml.git"
+  },
+  "keywords": [
+    "YMAL",
+    "JSON",
+    "config",
+    "fetch",
+    "remote",
+    "config"
+  ],
+  "author": "Robin Glen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gullwing-io/read-js-yaml/issues"
+  },
+  "homepage": "https://github.com/gullwing-io/read-js-yaml#readme",
+  "dependencies": {
+    "got": "^12.5.2",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}
